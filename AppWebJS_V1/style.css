@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Helvetica;
+}
+
+.header img {
+  width: 20rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: auto;
+  height: 8rem;
+}
